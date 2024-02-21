@@ -1,0 +1,4 @@
+These are recommendations, but none of these are required. You can access any of these commands by using the `Cmd + P` menu and typing the name of the command, but I use these actions frequently and want a keyboard shortcut. To add a keyboard shortcut, press `Cmd + ,` to open the preferences menu, then go to the "Hotkeys" tab, search for the name of the command you want to change the shortcut for, click the little `+` icon, then hit the key combination you want to run that command.
+
+- "Move Note to Another Folder" - `Cmd + Shift + M`
+- "Insert Template" - `Cmd + T` (this conflicts with "New Tab," but I never use that command so I just removed that binding)

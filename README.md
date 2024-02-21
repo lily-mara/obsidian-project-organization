@@ -1,0 +1,9 @@
+This is an [Obsidian](https://obsidian.md) Vault that demonstrates my strategy for managing blockers on a number of independent projects. To browse this Vault, download it to your computer, then open it as a Vault in Obsidian. You can copy the templates from this Vault into your own vault and begin using them.
+# How to Use
+First, you will need to install the [[Dependencies]] and [[Templates]] from this vault into your own.
+
+The core of this system is the "issue." This represents a problem that you've had while working on *something*. To make a new issue, you'd create a new note in the "Notes" folder (See [[Keyboard Shortcuts]]), give it an appropriate name, then run "Insert Template" and select the "[[Issue]]" template from the list.
+
+You'll notice that it's applied the `#issue` tag to the note, and added the `related-to` field to the top of the note. This field holds a list of links to other notes that this issue is related to. If you're having an issue with, for example, [[Rust Ownership & Borrowing]] while working on an [[Encabulate Performance Optimization]] project, you might include links to the borrow checker note and the project note, as shown in the [[Handling Ownership When Removing Clone]] issue note.
+
+When you've reached the solution of an issue you must *WRITE IT DOWN* in the associated issue note, so that you can find your solution in the future if you encounter a similar problem. You should then add the `#issue/solved` tag to the note, so that the issue moves from the "Issues" section to the "Solved Issues" section in its associated pages. To see what a solved issue looks like, take a look at [[Handling Ownership When Removing Clone (solved)]].
